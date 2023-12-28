@@ -1,6 +1,8 @@
 minimum_cumulusci_version: '3.78.0'
 project:
     name: Record-Tagging
+    dependencies:
+        - github: https://github.com/pozil/sfdc-ui-lookup-lwc
     package:
         name: Record-Tagging
         api_version: '55.0'
