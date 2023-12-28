@@ -116,19 +116,19 @@ INSERT INTO "Tag__c" VALUES(3,'Poopy Client');
 INSERT INTO "Tag__c" VALUES(4,'Party Animal');
 INSERT INTO "Tag__c" VALUES(5,'Big Deal');
 INSERT INTO "Tag__c" VALUES(6,'Test');
-CREATE TABLE "nimba_TagRelationship__c" (
+CREATE TABLE "TagRelationship__c" (
 	id INTEGER NOT NULL, 
 	"Account__c" VARCHAR(255), 
 	"Opportunity__c" VARCHAR(255), 
 	"Tag__c" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "nimba_TagRelationship__c" VALUES(1,'2','','6');
-INSERT INTO "nimba_TagRelationship__c" VALUES(2,'1','','6');
-INSERT INTO "nimba_TagRelationship__c" VALUES(3,'2','','2');
-INSERT INTO "nimba_TagRelationship__c" VALUES(4,'1','','3');
-INSERT INTO "nimba_TagRelationship__c" VALUES(5,'','2','6');
-INSERT INTO "nimba_TagRelationship__c" VALUES(6,'','2','5');
-INSERT INTO "nimba_TagRelationship__c" VALUES(7,'1','','1');
-INSERT INTO "nimba_TagRelationship__c" VALUES(8,'','1','6');
+INSERT INTO "TagRelationship__c" VALUES(1,'2','','6');
+INSERT INTO "TagRelationship__c" VALUES(2,'1','','6');
+INSERT INTO "TagRelationship__c" VALUES(3,'2','','2');
+INSERT INTO "TagRelationship__c" VALUES(4,'1','','3');
+INSERT INTO "TagRelationship__c" VALUES(5,'','2','6');
+INSERT INTO "TagRelationship__c" VALUES(6,'','2','5');
+INSERT INTO "TagRelationship__c" VALUES(7,'1','','1');
+INSERT INTO "TagRelationship__c" VALUES(8,'','1','6');
 COMMIT;

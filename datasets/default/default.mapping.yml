@@ -133,9 +133,9 @@ Insert Opportunity:
     Pricebook2Id:
       table: Pricebook2
       key_field: Pricebook2Id
-Insert nimba_TagRelationship__c:
-  sf_object: nimba_TagRelationship__c
-  table: nimba_TagRelationship__c
+Insert TagRelationship__c:
+  sf_object: TagRelationship__c
+  table: TagRelationship__c
   lookups:
     Opportunity__c:
       table: Opportunity

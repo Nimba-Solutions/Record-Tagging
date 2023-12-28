@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <label>Account</label>
     <referenceTo>Account</referenceTo>
-    <relationshipLabel>nimba_TagRelationships</relationshipLabel>
-    <relationshipName>nimba_TagRelationships</relationshipName>
+    <relationshipLabel>TagRelationships</relationshipLabel>
+    <relationshipName>TagRelationships</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

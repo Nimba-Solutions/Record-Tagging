@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Relates nimba_Tag records to records of other objects</description>
+    <description>Relates Tag records to records of other objects</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,13 +154,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>nimba_TagRelationship</label>
+    <label>TagRelationship</label>
     <nameField>
         <displayFormat>{0000000}</displayFormat>
         <label>TagRelationship Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>nimba_TagRelationships</pluralLabel>
+    <pluralLabel>TagRelationships</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

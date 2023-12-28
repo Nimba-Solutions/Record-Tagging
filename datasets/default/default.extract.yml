@@ -84,7 +84,7 @@ extract:
     - Description
     - IsActive
     - Name
-  nimba_TagRelationship__c:
+  TagRelationship__c:
     fields:
     - Opportunity__c
     - Account__c
