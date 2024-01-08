@@ -8,7 +8,6 @@ public virtual class LookupSearchResult implements Comparable {
     protected String icon;
     protected String title;
     protected String subtitle;
-
     protected LookupSearchResult() {
     }
 
